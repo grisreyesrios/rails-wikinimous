@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-8 col-sm-offset-2 ">
+      <h1><%= @article.title %> </h1>
+        <p class= "btn btn-default"><%= link_to "Edit", edit_article_path(@article) %></p>
+        <p class= "btn btn-default"><%= link_to "Delete", article_path(@article), method: :delete, data: { confirm: "Delete article?" } %></p>
+        <p><%= @article.content %></p>
+        <p align= "center" class= "btn btn-default"><%= link_to "Return to the articles", root_path %></p>
+        </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,24 @@
+#navbar {
+  background-color: #FAEBD7;
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 5px solid #FAEBD7;
+  font-family: "Arial";
+  padding: 25px 25px 25px 55px;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: #5E5E5E;
+  opacity: 0.8;
+  &:hover {
+    opacity: 1;
+  }
+  font-size: 18px;
+}
+
+#new_article {
+  font-size: 20px;
+}

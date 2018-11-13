@@ -1,0 +1,31 @@
+.articles-container {
+  width: 80vw;
+  // text-align: center;
+  margin: 0 auto;
+}
+
+.article {
+  margin: 30px 0;
+  h1 {
+    font-family: "Arial";
+  }
+  p {
+    font-family: "Roboto", sans-serif;
+    color: #333333;
+    line-height: 200%;
+  }
+  a {
+    text-decoration: none;
+  }
+  a:link {
+    color: #337ab7;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+  a:visited {
+    color: #337ab7;
+  }
+}
+
